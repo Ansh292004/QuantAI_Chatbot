@@ -48,7 +48,7 @@ npm run dev
 ```
   [Google AI Gemini Documentation](https://aistudio.google.com/)
 
-# Project Structure
+## Project Structure
 ```
 CLONE
 │── node_modules/        # Installed dependencies (auto-generated)
