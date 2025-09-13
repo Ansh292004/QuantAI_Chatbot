@@ -1,0 +1,311 @@
+/* ============================= */
+/*         LOGO & BRAND          */
+/* ============================= */
+.logo{
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.brand{
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+/* ============================= */
+/*         BUTTON STYLES         */
+/* ============================= */
+.addBtn{
+  height: 2rem;
+  width: 2rem;  
+  padding-right: 1rem;
+}
+
+.midBtn{
+  width:100%;
+  background: #9d96e9;
+  border: none;
+  color: whitesmoke;
+  padding:15px;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/* Hover effect for new chat button */
+.midBtn:hover {
+  background: #8778d9; /* slightly darker */
+  box-shadow: 0px 4px 12px rgba(157, 150, 233, 0.3);
+  transition: 0.2s;
+}
+
+
+/* ============================= */
+/*       QUERY BUTTONS           */
+/* ============================= */
+.query{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: rgb(222,222,222,1);
+  background: transparent;
+  margin: 1rem auto;
+  width:100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(98,98,98,1);
+  gap: 10px;
+  cursor: pointer;
+}
+
+.query1{
+  height: 25px;
+  width: 20px;
+}
+
+.query2{
+  height: 25px;
+  width: 20px;
+}
+
+/* Hover effect for query buttons */
+.query:hover {
+  background: rgba(157, 150, 233, 0.15);
+  box-shadow: 0px 4px 8px rgba(157, 150, 233, 0.2);
+  transition: 0.2s;
+}
+
+
+/* ============================= */
+/*       BASE ELEMENTS           */
+/* ============================= */
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background: rgb(3,0,31);
+  color:white;
+  font-family: 'Poppins',sans-serif;
+}
+
+
+/* ============================= */
+/*       APP LAYOUT              */
+/* ============================= */
+.App{
+  min-height: 100vh;
+  display: flex;
+}
+
+.sidebar{
+  flex:5.5;
+  border-right: 2px solid rgb(100,100,100);
+}
+
+.main{
+  flex:11;
+}
+
+
+/* ============================= */
+/*     SIDEBAR (UPPER/LOWER)     */
+/* ============================= */
+.upperSide{
+  padding: 2.5rem;
+  border-bottom: 2px solid rgb(100,100,100);
+  height: 65%;
+}
+
+.upperSideTop{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.lowerSide{
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  margin-top:0.1rem;
+}
+
+
+/* ============================= */
+/*       SIDEBAR LIST ITEMS      */
+/* ============================= */
+.listItems{
+  margin:0.5rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.listitemsImg1,
+.listitemsImg2,
+.listitemsImg3{
+  height: 25px;
+  width: 25px;
+  padding-right: 1rem;
+  margin: 0.4rem;
+  cursor: pointer;
+}
+
+/* Extra spacing for first three items */
+.listItems:nth-child(1)>.listitemsImg1{
+  margin-bottom: 0.6rem;
+}
+.listItems:nth-child(2)>.listitemsImg2{
+  margin-bottom: 0.6rem;
+}
+.listItems:nth-child(3)>.listitemsImg3{
+  margin-bottom: 0.6rem;
+}
+
+
+/* ============================= */
+/*         MAIN CHAT AREA        */
+/* ============================= */
+.main{
+  min-height: calc(100vh - 14rem);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 6rem 10rem;
+  margin-bottom: 0;
+  max-width: 70rem;
+}
+
+
+/* ============================= */
+/*        CHAT AVATARS           */
+/* ============================= */
+.chat img, .botchat img {
+  object-fit: cover;
+  width: 35px;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  height: 35px;
+  align-items: flex-start;
+  border-radius: 50%; /* makes user icon circular */
+}
+
+
+/* ============================= */
+/*        CHAT FOOTER            */
+/* ============================= */
+.chatFooter{
+  margin-top: auto;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chatFooter>p{
+  margin: 1.2rem 0;
+  font-size: 1.2rem;
+}
+
+.copyright{
+  color:rgb(100,100,100);
+  line-height:0;
+}
+
+
+/* ============================= */
+/*        CHAT SCROLL AREA       */
+/* ============================= */
+.chats{
+  overflow:hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  max-width: 70rem;
+  height:calc(100vh - 17rem) ;
+}
+
+
+/* ============================= */
+/*        CHAT BUBBLES           */
+/* ============================= */
+.chat{
+  margin: 1rem;
+  padding:2rem 3rem;
+  font-size: 1.2rem;
+  display:flex;
+  align-items: flex-start;
+  text-align: justify;
+}
+
+.botchat{
+  margin: 1rem;
+  padding:2rem 3rem;
+  font-size: 1.2rem;
+  display:flex;
+  align-items: flex-start;
+  text-align: justify;
+  background: rgba(28, 30, 58, 1);
+  border-left:3px solid #9d96e9;
+  color: #cfcfff;
+  width: fit-content;
+  border-radius: 0.8rem;
+  box-shadow: 0px 4px 8px rgba(100, 100, 255, 0.15);
+  transition: 0.2s;
+}
+
+/* Hover effect for botchat bubble */
+.botchat:hover {
+  box-shadow: 0px 6px 10px rgba(157, 150, 233, 0.25);
+}
+
+
+/* ============================= */
+/*        INPUT AREA             */
+/* ============================= */
+.inp{
+  padding:0.5rem;
+  background: rgba(28, 30, 58, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.7rem;
+  width: 68rem;
+  margin-top: 10px;
+}
+
+.inp>input{
+  flex:1;
+  width:calc(100%-3rem);
+  outline: none;
+  padding:1.3rem;
+  color: white;
+}
+
+.inp>input, .send{
+  background: transparent;
+  border:none;
+}
+
+.send{
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+
+/* ============================= */
+/*       CUSTOM SCROLLBAR        */
+/* ============================= */
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(3,0,31);
+}
+
+
