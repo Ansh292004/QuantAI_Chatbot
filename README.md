@@ -44,7 +44,8 @@ npm run dev
 
 📂 Assets Folder
 ```
-🔹The src/assets/ folder contains all the static icons and images used across the application. These are imported directly into React components and styled via CSS
+🔹The src/assets/ folder contains all the static icons and images used across the application. 
+🔹These are imported directly into React components and styled via CSS
 🔹If you want to add more icons, place them inside the src/assets/ folder and import them 
 ```
 
