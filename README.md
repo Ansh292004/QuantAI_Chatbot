@@ -40,6 +40,7 @@ const ai = new GoogleGenAI({
 4. Run the app
  ```
 npm run dev 
+```
 
 📂 Assets Folder
 ```
