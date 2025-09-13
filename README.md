@@ -56,7 +56,7 @@ npm run dev
 🔹For the latest examples and best practices, always check the official docs:
 ```
 [Google AI Gemini Documentation](https://aistudio.google.com/)
-COURTESY:GreatStack
+Courtesy : [GreatStack](https://greatstack.dev/)
 
 ## Project Structure
 ```
