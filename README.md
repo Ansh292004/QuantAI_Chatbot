@@ -48,5 +48,26 @@ npm run dev
 ```
   [Google AI Gemini Documentation](https://aistudio.google.com/)
 
+# Project Structure
+```
+CLONE
+│── node_modules/        # Installed dependencies (auto-generated)
+│── public/
+│   └── index.html       # Main HTML entry file
+│
+│── src/                 # Your source code
+│   │── assets/          # Images/icons (SVGs, etc.)
+│   │── favicon          # App icon
+│   │── App.css          # Styling for App component
+│   │── App.js           # Main App component (your UI is here)
+│   │── gemini.js        # Likely your AI/logic integration file
+│   │── index.js         # React entry point, renders <App/>
+│
+│── .gitignore           # Git ignore rules
+│── package-lock.json    # Exact dependency versions (auto-generated)
+│── package.json         # Project metadata + dependencies
+│── README.md            # Project documentation
+```
+
 
 
