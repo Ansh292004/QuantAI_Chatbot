@@ -16,7 +16,7 @@ This project demonstrates how to integrate Gemini into a React frontend and buil
 
 ##  Setup Instructions
 
-### 1. Clone the repo
+1. Clone the repo
 ```
 git clone https://github.com/Ansh292004/QuantAI_Chatbot.git
 cd QuantAI_Chatbot
@@ -27,10 +27,9 @@ npm install
 ```
 3. Get your Gemini API key
 ```
-Go to Google AI Studio
-
-Generate a new API key
-Then update the code in askGemini.js:
+🔹Go to Google AI Studio
+🔹Generate a new API key
+🔹Then update the code in askGemini.js:
 
 import { GoogleGenAI } from "@google/genai";
 const ai = new GoogleGenAI({
