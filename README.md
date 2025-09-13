@@ -45,6 +45,6 @@ npm run dev
 
 🔹Gemini models are continuously updated, and code snippets may change over time.
 🔹For the latest examples and best practices, always check the official docs:
-
+  [Google AI Gemini Documentation](https://aistudio.google.com/)
 
 
