@@ -1,3 +1,4 @@
+
 # Gemini AI Chat App
 
 A simple chat interface powered by **Google Gemini API (2.5 Flash)**.  
@@ -38,8 +39,14 @@ const ai = new GoogleGenAI({
 ```
 4. Run the app
  ```
-npm run dev
+npm run dev 
+
+📂 Assets Folder
 ```
+🔹The src/assets/ folder contains all the static icons and images used across the application. These are imported directly into React components and styled via CSS
+🔹If you want to add more icons, place them inside the src/assets/ folder and import them 
+```
+
 ⚠️ Important Notes
 ```
 🔹The API key in this repo is a placeholder just for demonstration.
