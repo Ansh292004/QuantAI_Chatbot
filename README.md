@@ -40,6 +40,11 @@ const ai = new GoogleGenAI({
  ```
 npm run dev
 ```
+⚠️ Important Notes
+🔹The API key in this repo is a placeholder just for demonstration.
+
+🔹Gemini models are continuously updated, and code snippets may change over time.
+🔹For the latest examples and best practices, always check the official docs:
 
 
 
